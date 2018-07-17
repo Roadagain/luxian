@@ -28,12 +28,19 @@
   width: 90px;
   height: 90px;
   background: #000;
-
 }
 
-.lever-up {
+.lever {
   width: 40px;
   height: 160px;
-  margin: -100px;
   background: #770;
+}
+
+.up {
+  display: none;
+  margin: -100px 0 0 0;
+}
+
+.down {
+  margin: 30px 0 0 0;
 }
