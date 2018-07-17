@@ -37,10 +37,10 @@
 }
 
 .up {
-  display: none;
-  margin: -100px 0 0 0;
+  margin: -95px 0 0 0;
 }
 
 .down {
-  margin: 30px 0 0 0;
+  display: none;
+  margin: 25px 0 0 0;
 }
