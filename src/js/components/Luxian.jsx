@@ -1,7 +1,8 @@
 import React from 'react';
-import '../css/style.css';
+import { connect } from 'react-redux';
+import '../../css/style.css';
 
-const Luxian = ({ isUp }) => (
+const Luxian = ({ dispatch, onLeverClick, isUp }) => (
   <div className="luxian">
     <div className="box cactus">
       あたま
@@ -10,7 +11,7 @@ const Luxian = ({ isUp }) => (
       からだ
       <div className="lever-base">
         レバー設置場所
-        <div className={`lever ${isUp ? "up" : "down"}`}>
+        <div className={`lever ${isUp ? "up" : "down"}`} onClick={() => onLeverClick(isUp)}>
           緑仙の緑仙
         </div>
       </div>
