@@ -1,0 +1,9 @@
+{
+  "name": "luxian",
+  "version": ".",
+  "description": "チャイカが作った緑仙の再現",
+  "main": "index.js",
+  "repository": "https://github.com/Roadagain/luxian.git",
+  "author": "Roadagain <ringoh72@gmail.com>",
+  "license": "MIT"
+}
