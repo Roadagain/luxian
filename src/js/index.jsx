@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Luxian from './Luxian';
 
-ReactDOM.render(<p>緑仙のようななにか</p>, document.getElementById('app'));
+ReactDOM.render(<Luxian />, document.getElementById('app'));
