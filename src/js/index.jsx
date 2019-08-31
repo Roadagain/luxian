@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux'
-import Luxian from './containers/Luxian';
+import Luxian from './components/Luxian';
 import lever from './reducers/lever';
 
 const store = createStore(lever);
